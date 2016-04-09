@@ -6,7 +6,7 @@ Widget for a Machine Name form element.
 Machine Name Widget provides a field for the
 [machine_name](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Render!Element!MachineName.php/class/MachineName/8)
 render element. This module does not provide a UI for configuring the widget,
-but is rather is intended to be used by other modules (i.e. content entities).
+but rather is intended to be used by other modules (i.e. content entities).
 
 ## Installation
 Install as you would normally install a contributed Drupal module.
