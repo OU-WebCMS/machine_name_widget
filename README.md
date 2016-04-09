@@ -32,15 +32,15 @@ $fields['machine_name'] = BaseFieldDefinition::create('string')
     'type' => 'machine_name',
     'weight' => -4,
     'settings' => [
-    'source' => [
-      'title',
-      'widget',
-      0,
-      'value',
+      'source' => [
+        'title',
+        'widget',
+        0,
+        'value',
+      ],
+      'exists' => '\Drupal\colossal_menu\Entity\Link::loadByMachineName',
     ],
-    'exists' => '\Drupal\colossal_menu\Entity\Link::loadByMachineName',
-  ],
-]);
+  ]);
 ```
 
 ## Maintainers
