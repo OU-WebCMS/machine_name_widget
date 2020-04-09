@@ -1,0 +1,21 @@
+{
+  "name": "drupal/machine_name_widget",
+  "description": "Provides a machine name widget.",
+  "type": "drupal-module",
+  "authors": [
+    {
+      "name": "davidwbarratt",
+      "role": "Maintainer"
+    }
+  ],
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+       "dev-8.x-1.x": "1.x-dev"
+    }
+  },
+  "require": {
+    "drupal/core": "^8.7.7 || ^9"
+  }
+}
