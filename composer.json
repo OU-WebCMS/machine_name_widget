@@ -20,7 +20,7 @@
     "enable-patching": true,
     "patches": {
       "drupal/core": {
-        "Issue 2685749: Add a Machine Name widget to core.": "https://www.drupal.org/files/issues/2019-12-16/2685749-73.patch"
+        "Issue 2685749: Add a Machine Name widget to core.": "https://www.drupal.org/files/issues/2021-06-03/2685749-92.patch"
       }
     }
   }
